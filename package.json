@@ -1,5 +1,5 @@
 {
-  "name": "build-test",
+  "name": "npm-n-cpm-test",
   "version": "0.0.1",
   "description": "components library",
   "author": "NissenMaster",
@@ -12,13 +12,6 @@
     "Component",
     "UI",
     "React"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/NissenMaster/build-test"
-  },
-  "files": [
-    "dist"
   ],
   "dependencies": {
     "classnames": "^2.2.6"
@@ -38,8 +31,7 @@
     "build-ts": "tsc -p tsconfig.build.json",
     "build-css": "node-sass ./src/styles/index.scss ./dist/index.css",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public",
-    "prepublishOnly": "npm run test:nowatch && npm run lint && npm run build"
+    "build-storybook": "build-storybook -s public"
   },
   "husky": {
     "hooks": {
