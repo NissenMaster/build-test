@@ -2,7 +2,7 @@
   "name": "build-test",
   "version": "0.0.1",
   "description": "components library",
-  "author": "nissenmaster",
+  "author": "NissenMaster",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nissenmaster/build-test"
+    "url": "https://github.com/NissenMaster/build-test"
   },
   "files": [
     "dist"
